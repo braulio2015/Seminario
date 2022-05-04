@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/3bd9b52765.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/estilos-login.css">
+    <link rel="stylesheet" href="css/estilos.css" />
+    <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="css/card.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
+    <!-- Logo -->
+    <link rel="shortcut icon" href="images/sandia_Icon.png" type="image/x-icon" />
+    <title>Login</title>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="index.html"><img class="img" src="./images/Sandia_icon_nav.png" alt="" /></a>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link nav_bar" href="./index.html">Inicio <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link nav_bar" href="#">Tiendas</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link nav_bar" href="#">Productos</a>
+                    <li class="nav-item">
+                        <a class="nav-link nav_bar" href="#">Contacto</a>
+                    </li>
+            </ul>
+
+
+
+            <button class="registrarse"><a class="link botton-login" href="registro.html"> Registrarse</a></button>
+            <button class="login"><a class="link botton-login" href="login.html"> Iniciar Sesión</a></button>
+
+
+
+        </div>
+    </nav>
+
+
+    <form class="formulario">
+
+        <h1>Login</h1>
+
+        <div class="contenedor">
+
+
+            <div class="input-contenedor">
+                <i class="fas fa-envelope icon"></i>
+                <input type="text" placeholder="Correo Electronico" required>
+            </div>
+
+            <div class="input-contenedor">
+                <i class="fas fa-key icon"></i>
+                <input type="password" placeholder="Contraseña" required>
+            </div>
+
+            <input type="submit" value="Login" class="button">
+            <br>
+            <br>
+            <p>¿No tienes cuenta?<a class="link" href="registro.html"> Registrate</a></p>
+
+        </div>
+
+
+    </form>
+
+</body>
+
+</html>

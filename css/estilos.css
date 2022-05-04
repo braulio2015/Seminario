@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,500&display=swap');
+.img {
+    width: 60px;
+}
+
+.nav_bar {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.redes {
+    padding: 5px;
+    margin-right: 15px;
+    color: #EC5E17;
+}
